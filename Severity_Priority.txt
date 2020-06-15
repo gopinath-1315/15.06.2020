@@ -1,0 +1,34 @@
+Severity of a defect is impact of the bug terms of financial loss, damage to environment, company’s reputation and loss of life.
+Severity is set by the Tester
+
+Priority of a defect is related to how quickly a bug should be fixed and deployed to live
+Priority is set by the Customer
+
+High Severity –High Priority bug
+This is when major path through the application is broken
+•In Flipkart, every customers get error message when placing orders and the order is not taken
+•When the link broken and throws a Error 500 response
+
+High Priority –Low Severity bug
+Functionally all looks good but due to minor non functional part, the business reputation will be lost
+•For example, the logo or name of the company is wrongly displayed on the website.
+•It is important to fix the issue as soon as possible, although it may not cause a lot of damage.
+
+
+High Severity –Low Priority bug
+This happens when the bug causes major problems, but it only happens in very rare conditions or situations
+•for example, customers who use Internet Explorer 8 cannot continue with their purchase of a product
+•Because the number of customers with very old browsers is very low, it is not a high priority to fix the issue.
+
+
+Low Priority –Low Severity bug
+•When the bug doesn’t cause disaster and only affects very small number of customers, both Severity and Priority are assigned low
+•Cosmetic defects, design issues and text overlapping
+
+Example: 
+Terms & Conditions link not working
+Q&A page not opening
+
+
+
+
