@@ -1,0 +1,92 @@
+Git Commands
+
+1. Git Command to configure user name and email
+		git config --global user.name "Sam Smith"
+		git config --global user.email sam@example.com
+
+2. Git Command to Initialize or create a new local repository
+		git init
+
+3. Git command to download or clone a project from git hub repository
+		git clone repository url
+
+4. Git command to add a single file to staging 
+		git add <file path>
+
+5. Git command to add the entire project to staging
+		git add .
+
+6. Git command to commit you changes to project
+		git commit -m " Commit Message"
+
+7. Git command to push your changes to the remote repository (Master)
+		git push -u origin master
+
+8. Git command to push your changes to the remote repository (Branch)
+		git push -u origin branchname   **** In real time we will directly push our changes to branch and not in master **** 
+
+9. Git command which will list out the files you've changed/added recently
+		git status
+
+10. Git command to connect your local repository to a remote repository
+		git remote add origin ÅgrepositoryURLÅh
+
+11. Git command to remove the existing connection to the remote repository
+		git remote rm origin 
+
+12. Git command to list out the branches created 
+		git fetch
+
+13. Git command to switch to a branch from master
+		git checkout branchname
+
+14. Git command to switch to a master from branch
+		git checkout master
+
+15. Git command to delete the branch
+		git branch -d branchname
+
+16. Git command to merge a different branch to your active branch
+		git merge <branchname>
+
+17. Git command to pull the updated copy from master
+		git pull origin master
+
+18. Git command to forcefully push the code to master
+		git push --force
+
+19. Git day to day activity 
+		Accept the collaberator invitation on day 1 of your project , Clone the project , Import the project to your eclipse , Create a own branch and checkout to you branch
+		On Daily basis
+		Git pull origin master-------------Resolving conflicts , if any
+		Git add
+		Git commit ñm ?Commands
+		Git push ñu origin branch name
+
+20. Steps on how to give collaberator access in Git Hub	
+		Open Git hub ----- > Go to settings ----- > Left side of the page we will have collaberators option ----- > Click on that and enter the git user name for which we are going to give collaberator access
+
+21. Steps on how to resolve conflicts
+		First time if we are giving pull request then we will not face any conflicts because everyone has the same master code.If two persons/branches try to modify or add at the same line of code and when both of them try to push it to git then at that time conflicts will occur.
+
+
+    Steps to resolve it:
+    	git pull origin master
+    	Resolve conflict by making changes in eclipse
+    	git status 
+	git add .
+    	git commit
+    	git push -u origin branch name
+	Finally in Git hub give pull request to Master and merge the code with master
+
+22. Git command to go back to the previous changes
+	git reset
+
+23. What is the use of Git Stash command?
+
+	Git stash temporarily saves/stashes the changes we have done in our working copy so that we can reapply/rework on it later
+
+
+		
+
+		
